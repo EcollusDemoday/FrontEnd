@@ -1,4 +1,4 @@
-# FrontEndEcollus
+# FrontEndEcollus + API
 Repositório contendo o front-end completo do projeto Ecollus e a ligação com a API no Cadastro e login.<br>
 
 Foi utilizado HTML para a estrutura das páginas.<br>
