@@ -38,7 +38,7 @@ document.getElementById("registro-form").addEventListener("submit", function (ev
             if (response.ok) {
               alert('Usuário criado com sucesso!');
               // Exiba a mensagem de sucesso para o usuário
-              window.location.href = "index.html";
+              window.location.href = "logincadastrocliente.html";
             } else {
               // Ocorreu um erro ao criar o usuário
               console.log('Erro desconhecido ao criar usuário.');
@@ -83,7 +83,7 @@ document.getElementById("login-form").addEventListener("submit", function (event
     .then(response => {
       if (response.ok) {
         // Login bem-sucedido, redireciona para a página de sucesso
-        window.location.href = "sucesso.html";
+        window.location.href = "index.html";
       } else {
         // Credenciais inválidas
         alert('Credenciais inválidas.');
