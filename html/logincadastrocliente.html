@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Página da Ecollus, uma startup com o foco em dar visibilidade ao microempreendedor do ramo de cosméticos ecológicos, ainda sim dando acessbilidade ao consumidor">
+    <meta name="keywords" content="Ecollus, Cosméticos, Ecológicos, Vegano, Sustentável, Mentoria">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Alanis, Luana, Murilo, Leticia, Giovanna, Caio, Matheus">
+    <link rel="stylesheet" href="css/logincadastrocliente.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/7725c28e48.js" crossorigin="anonymous"></script>
+
+    <title>Ecollus</title>
+</head>
+
+<body>
+
+    <main>
+        <div class="box">
+            <div class="inner-box">
+                <div class="forms-wrap">
+                <form action="index.html" id="login-form" autocomplete="off" class="sign-in-form">
+                    <div class="logo">
+                        <img src="/imglogincadastro/logo.png" alt="logo ecollus">
+                        <h4>Ecollus</h4>
+                    </div>
+                    <div class="heading">
+                        <h2>Bem-vindo de Volta</h2>
+                    </div>
+                    <div class="empreendedor-check">
+                        <a href="logincadastroempreendedor.html"><i class="fa-regular fa-circle"></i></a>
+                       <label for="empreendedor2"> Empresa</label>
+                    </div>
+
+                    <div class="cliente-check">
+                        <a href="logincadastrocliente.html"><i class="fa-solid fa-circle"></i></a>
+                       <label class="cliente2" for="cliente2">Usuário</label>
+                    </div>
+
+                    <div class="actual-form">
+                        <div class="input-wrap">
+                            <input 
+                            name="email"
+                            type="email"
+                              class="input-field" autocomplete="off"
+                            required
+                            />
+                            <label>Email</label>
+                        </div>
+                               
+                        <div class="input-wrap">
+                            <input 
+                            name="senha"
+                            type="password" 
+                            minlength="4"
+                            class="input-field"
+                            autocomplete="off"
+                            required 
+                            />
+                            <label>Senha</label>
+                        </div>
+
+                        <div class="cadastro2">
+                        <span><a href=""><input type="submit" value="Entrar" class="sign-btn"></a></span>
+                        <p class="text-2">
+                            <h6>Ainda não se registrou?<span class="registre"><a href="#" class="toggle">Registre-se</a></span></h6>
+                            <p2 class="esqueceu">Esqueceu a senha?<a href="/recuperarsenha.html"><span>Ajuda</span></a></p2>
+
+                        </div>
+                    </div>
+                </form>
+
+                <form action="index.html" id="registro-form" autocomplete="off" class="sign-up-form">
+                    <div class="logo">
+                        <img src="/imglogincadastro/logo.png" alt="logo ecollus">
+                        <h3>Ecollus</h3>
+                    </div>
+                    <div class="heading">
+                        <h2>Registre-se</h2>
+                        
+                    </div>
+                    <div class="empreendedor-check2">
+                        <a href="logincadastroempreendedor.html"><i class="fa-regular fa-circle"></i></a>
+                       <label for="empreendedor22"> Empresa</label>
+                    </div>
+
+                    <div class="cliente-check2">
+                        <a href="logincadastrocliente.html"><i class="fa-solid fa-circle"></i></a>
+                       <label for="empreendedor22">Usuário</label>
+                    </div>
+
+
+                    <div class="actual-form">
+                        <div class="input-wrap">
+                            <input 
+                            name="nome"
+                            type="text"
+                             minlength="4" class="input-field" autocomplete="off"
+                            required
+                            />
+                            <label>Nome</label>
+                        </div>
+
+                        <div class="input-wrap">
+                            <input 
+                            name="email"
+                            type="email"
+                              class="input-field" autocomplete="off"
+                            required
+                            />
+                            <label>Email</label>
+                        </div>
+
+                        <div class="input-wrap">
+                            <input type="password" name="senhaemp" minlength="4" class="input-field" autocomplete="off" required onchange='confereSenha()' />
+                            <label>Senha</label>
+                        </div>
+
+                        <div class="input-wrap">
+                            <input type="password" name="confirma" minlength="4" class="input-field" autocomplete="off" required onchange= 'confereSenha()' />
+                            <label>Confirmar Senha</label>
+                        </div>
+                               
+                        <div class="cadastro">
+                            <span><a href=""><input  type="submit" value="Registre-se" class="sign-btn"/></a></span>
+                        <h6>Já tem uma conta?<span><a href="#" class="toggle">Entrar</a></span></h6>
+                        
+                        <p class="text">
+                         Me registrando, eu concordo com 
+                         <span><a href="/termospolitica.html">Termos de serviço</a>  e <a href="/termospolitica.html">Politica de Privacidade</a></span>
+                         </p>
+                        </div>
+                    </div>
+                </form>
+                </div>
+
+                <div class="carousel">
+                    <div class="images-wrapper">
+                        <img src="imglogincadastro/cacto1.png" class="image img-1 show" alt=""/>
+                        <img src="imglogincadastro/cacto2.png" class="image img-2" alt=""/>
+                        <img src="imglogincadastro/cacto3.png" class="image img-3" alt=""/>
+                    </div>
+                    <div class="text-slider">
+                        <div class="text-wrap">
+                            <div class="text-group">
+                                <h2>Seja Nosso Parceiro</h2>
+                                <h2>Conheça Nossa Ecobox</h2>
+                                <h2>Conheça Nossos Parceiros</h2>
+                            </div>
+                        </div>
+                        <div class="bullets">
+                            <span class="active" data-value="1"></span>
+                            <span data-value="2"></span>
+                            <span data-value="3"></span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+
+    <script src="js/logincadastro.js"></script>
+
+
+
+
+
+
+</body>
+
+</html>

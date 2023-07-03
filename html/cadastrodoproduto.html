@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Página da Ecollus, uma startup com o foco em dar visibilidade ao microempreendedor do ramo de cosméticos ecológicos, ainda sim dando acessbilidade ao consumidor">
+    <meta name="keywords" content="Ecollus, Cosméticos, Ecológicos, Vegano, Sustentável, Mentoria">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Alanis, Luana, Murilo, Leticia, Giovanna, Caio, Matheus">
+    <link rel="stylesheet" href="css/cadastroproduto.css">
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/7725c28e48.js" crossorigin="anonymous"></script>
+
+    <title>Ecollus</title>
+    <style> @font-face {
+        font-family: 'Nexa';
+        src: url(Nexa-ExtraLight.ttf) format(truetype);
+    }
+</style>
+</head>
+
+<body> 
+
+    <header>
+
+        <div class="navbar_logo">
+            <a href="/index.html">
+            <img src="img/NOVOLOGO.png" alt="Ecollus" />
+        </a>
+        </div>
+        <div class="navbar">
+           
+        <ul class="nav-list">
+            <a href="/index.html"><li class="item" id="item1">Home</li></a>
+            <a href="/sobrenos.html"><li class="item" id="item2">Sobre</li></a>
+            <a href="/ecoblog.html"><li class="item" id="item3">Ecoblog</li></a>
+            <a href="/quiz.html"><li class="item" id="item4">Quiz</li></a>
+            <a href="/ecobox.html"><li class="item" id="item5">Ecobox</li></a>
+            <a href="/cadastromicroempreendedor.html"><li class="item" id="item6">Seja Parceiro</li></a>
+        </ul>
+    </div>
+    
+    <div class="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" class="search__input" placeholder="Faça sua busca">
+    </div>
+    <div class="navbar_icon">
+        <a href="/menucliente.html"><i class="fa-regular fa-user"></i></a>
+        <a href="/listadedesejos.html"><i class="fa-regular fa-heart"></i></a>
+</div>
+
+
+
+
+        </nav>
+    </header>
+    
+
+    <div class="cadastro-produto">
+
+    <h2>Cadastre seu produto aqui!</h2>
+    <form>
+   <label class="picture" for="picture__input" tabindex="0">
+    <span class="picture__image"></span>
+   </label>
+
+   <input type="file" name="picture__input" id="picture__input" required>
+    
+
+    <h3>Qual tipo de cosmético você quer vender?</h3>
+    <div class="box-tipo">
+        <label class="maquiagem">
+            <input class="maquiagem" type="radio" value="Maquiagem" >Maquiagem
+        </label>
+
+        <label class="skincare">
+        <input type="radio" value="skincare">Skincare
+        </label>
+        
+        <label class="capilares">
+        <input type="radio" value="capilares">Capilares
+        </label>
+
+        <label class="corporais">
+            <input type="radio" value="corporais">Corporais
+        </label>
+    </div>
+    <div class="box-info">
+        <h3>Comece adicionando uma descrição para seu produto seguindo estes passos</h3>
+
+        <h3>1º Título</h3>
+        <p> O nome do produto e a marca</p>
+
+        <h3>2º Preço</h3>
+        <p>Use para atrair seu cliente</p>
+
+        <h3>3º Descrição</h3>
+        <p>Explique a utilidade e o  diferencial do seu produto</p>
+
+        <h3>4º Composição</h3>
+        <p>Apresentar a composição e outros fatores sobre sua fabricação</p>
+
+    </div>
+
+    <div class="box-exemplo">
+        <h2 class="titulo-exemplo">Exemplo</h2>
+        <div class="icone">
+            <img src="/imgvitrine2/iconempresaVERDE2.png" alt="">
+        </div>
+        <div class="img-exemplo">
+        <img src="/img/imagemvitrine9.png" alt="">
+    </div>
+
+    <h3 class="composição">Composição</h3>
+    <p class="composição2">Ácido Hialurônico Vegano, Extratos<br> Botânicos Orgânicos, Óleos Vegetais<br> Nutritivos, Manteigas Vegetais e Extratos<br> de Frutas</p>
+
+    <h4 class="nome-marca">Marca</h4>
+    <h3 class="serum">Serum Hidratahnte Isaura<br> 500ml</h3>
+    <h4 class="hidratante">Hidrante para rosto</h4>
+    <h5>R$ 24,60</h5>
+    <button>Quero conhecer</button>
+    <div class="icone-heart"><i class="fa-regular fa-heart"></i></div>
+    
+     <h6>Descrição</h6>
+    <p class="descricao">Nosso serum hidratante vegano oferece<br> uma hidratação profunda, agindo nas <br>camadas mais internas da pele. <br>Sua fórmula rica em ingredientes<br> naturais como óleos vegetais nutritivos,<br> extratos de plantas e ácido<br> hialurônico vegano, penetra na derme,<br> promovendo a retenção de umidade e<br> restaurando a barreira protetora da<br> pele. Isso resulta em uma pele <br> visivelmente mais macia, suave e </br> hidratada ao longo do dia.</p>
+    </div>
+
+    <div class="box-add">
+
+        <h3>Título</h3>
+      
+        <textarea name="titulo" id="titulo" cols="50" rows="6" placeholder="Digite o título" required></textarea>
+
+
+        <h3>Preço</h3>
+        <textarea name="titulo" id="titulo" cols="50" rows="6" placeholder="Digite o preço" required></textarea>
+
+
+        <h3>Descrição</h3>
+        <textarea name="titulo" id="titulo" cols="50" rows="6" placeholder="Digite a descrição" required></textarea>
+
+
+        <h3>Composição</h3>
+        <textarea name="titulo" id="titulo" cols="50" rows="6" placeholder="Digite a composição" required></textarea>
+
+
+        <button class="save">Salvar</button>
+    </form>
+
+
+    </div>
+
+</div>
+
+
+
+
+
+
+    
+<footer>
+    <div class="footer_top">
+        <a href="#"><button>Voltar para o início</button></a>
+
+        <section class="footer">
+            <div class="footer_box_container">
+                <div class="footer_box_container_box">
+                    <h3>ECOLLUS</h3>
+                    <a href="/sobrenos.html">Quem somos</a>
+                    <a href="/ecoblog.html">Ecoblog</a>
+                    <a href="/ecobox">Ecobox</a>
+                    <a href="/quiz">Quiz</a>
+                </div>
+
+                <div class="footer_box_container_box">
+                    <h3>CONTATO</h3>
+                    <a href="https://www.google.com/intl/pt-BR/gmail/about/">Email</a>
+                    <a href="/centraldeajuda.html">FAQ</a>
+                    <a href="#">SAC</a>
+                </div>
+
+                <div class="footer_box_container_box">
+                    <h3>EMPREENDEDOR</h3>
+                    <a href="/mentoria.html">Mentoria de Marketing</a>
+                    <a href="/selosmentoria.html">Selos de Qualidade</a>
+                    <a href="/vitrine2.html">Vitrine</a>
+                </div>
+
+                <div class="footer_box_container_box">
+                    <h3>Seja Eco nas redes!</h3>
+                    <div class="social_media">
+                        <a href="https://www.instagram.com/oficialecollus/"><i>
+                                <i class="fa-brands fa-instagram"></i>
+                            </i></a>
+                        <a href="https://www.linkedin.com/company/94861788/admin/feed/posts/?feedType=following"><i>
+                            <i class="fa-brands fa-linkedin"></i>
+                            </i></a>
+                        <a href="https://github.com/Ecollus"><i>
+                            <i class="fa-brands fa-github"></i>
+                            </i></a>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+    </div>
+
+
+
+    <div class="footer_bottom">
+        <ul class="list">
+            <a href="/termospolitica.html"><li class="list_item">Termos e Condições de Uso<br>Política de Privacidade</li></a>
+        </ul>
+        <h3>Ecollus</h3>
+        <p>2023 Ecollus Todos os Direitos Reservados &copy;</p>
+
+
+
+    </div>
+</footer>
+
+
+
+    <script src="js/script2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</body>
+
+</html>
