@@ -4,14 +4,14 @@ document.getElementById("registro-form").addEventListener("submit", function(eve
     // Obtém os valores dos campos do formulário
     const nome = document.getElementsByName("nome")[0].value;
     const cnpj = document.getElementsByName("cnpj")[0].value;
-    const senha = document.getElementsByName("senha")[0].value;
+    const senhaemp = document.getElementsByName("senhaemp")[0].value;
     
   
     // Cria um objeto com os dados do empreendedor
     const empreendedor = {
         nome: nome,
         cnpj: cnpj,
-        senha: senha,
+        senhaemp: senhaemp,
     };
   
 
@@ -84,7 +84,7 @@ document.getElementById("login-form").addEventListener("submit", function (event
       .then(response => {
         if (response.ok) {
           // Login bem-sucedido, redireciona para a página de sucesso
-          window.location.href = "sucesso.html";
+          window.location.href = "index.html";
         } else {
           // Credenciais inválidas
           alert('Credenciais inválidas.');
