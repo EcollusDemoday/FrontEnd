@@ -4,13 +4,13 @@ document.getElementById("registro-form").addEventListener("submit", function (ev
   // Obtém os valores dos campos do formulário
   const nome = document.getElementsByName("nome")[0].value;
   const email = document.getElementsByName("email")[0].value;
-  const senha = document.getElementsByName("senha")[0].value;
+  const senhaemp = document.getElementsByName("senhaemp")[0].value;
 
   // Cria um objeto com os dados do usuário
   const usuario = {
     nome: nome,
     email: email,
-    senha: senha
+    senhaemp: senhaemp
   };
 
   // Envia a requisição para verificar se o email já está em uso
@@ -38,7 +38,7 @@ document.getElementById("registro-form").addEventListener("submit", function (ev
             if (response.ok) {
               alert('Usuário criado com sucesso!');
               // Exiba a mensagem de sucesso para o usuário
-              window.location.href = "logincadastrocliente.html";
+              window.location.href = "index.html";
             } else {
               // Ocorreu um erro ao criar o usuário
               console.log('Erro desconhecido ao criar usuário.');
